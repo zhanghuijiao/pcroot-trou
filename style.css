@@ -1,0 +1,109 @@
+@charset "utf-8";
+/*搜索框样式*/
+.search{
+	width: 100%;
+	min-width: 1263px;
+	height: 600px;
+	background: url(../img/search.jpg) no-repeat center;
+
+	position: relative;	
+}
+.search>.center{
+	width: 600px;
+	height: 60px;
+	background-color: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -30px 0 0 -300px;
+	opacity: 0.6;
+	border-radius: 10px;
+	border:1px solid #666;
+}
+.search>.searchtxt{
+	width: 446px;
+	height: 52px;
+	color: #666;
+	font-size: 24px;
+	background-color: #eee;
+	border-radius: 10px;
+	border:1px solid #666;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 -296px;
+	padding: 0 10px;
+}
+.search>.button{
+	width: 120px;
+	height: 54px;
+	color: #666;
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 175px;
+	background-color: #eee;
+	border-radius: 10px;
+}
+/*热门旅游*/
+.center{
+	width: 1263px;
+	margin: 0 auto;
+	text-align: center;
+}
+.center h2{
+	font-size: 45px;
+	letter-spacing: 4px;
+	color: #666;
+}
+.center>.figImg{
+	color: #777;
+	display: inline-block;
+	width: 380px;
+	margin: 0;
+	text-align: left;
+	border:1px solid #ddd;
+	border-radius: 10px;
+	margin:  15px 10px 15px auto;
+	padding: 4px;
+	position: relative;
+}
+.center img{
+	width: 380px;
+	height: 230px;
+	vertical-align: middle;
+}
+.center .info{
+	font-size: 14px;
+	margin: 10px 0 5px 0;
+	letter-spacing: 1px;
+}
+.center .sta{
+	color: #999;
+	font-size: 13px;
+	font-style: normal;
+	float: right;
+}
+.center .price{	
+	color: #f60;
+}
+.center .price strong{
+	font-size: 20px;
+}
+.center .troutype{
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 1px;
+	border-bottom-right-radius: 4px;
+	background-color: #59b200;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+}
